@@ -20,6 +20,7 @@ const serverlessConfiguration: Serverless = {
         name: 'aws',
         runtime: 'nodejs12.x',
         profile: 'serverlessUser',
+        region: 'eu-west-1',
         apiGateway: {
             minimumCompressionSize: 1024,
         },
